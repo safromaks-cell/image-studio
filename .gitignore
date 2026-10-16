@@ -1,0 +1,32 @@
+models/
+runtime/
+outputs/
+logs/
+data/
+*.log
+
+# Local secrets, installed dependencies and generated user content
+credentials/
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+*.sqlite*
+*.db
+*.gguf
+*.safetensors
+outputs.zip
+*Preview.png
+TEST_RESULTS.json
+*_TEST_RESULTS.json
+*.pem
+*.key
+
+# Conversations, tasks and output history
+data/
+outputs/
+logs/

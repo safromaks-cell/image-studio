@@ -1,0 +1,23 @@
+{
+  "port": 8795,
+  "listenHost": "0.0.0.0",
+  "llamaPort": 8796,
+  "llamaExe": "D:\\Quest3S_Workspace\\Qwen_Simple_Chat\\runtime\\llama-server.exe",
+  "promptModel": "D:\\Quest3S_Workspace\\Qwen_Simple_Chat\\models\\fea749bd92c6\\Gemma-4-E4B-Abliterated-Uncensored.i1-Q4_K_M.gguf",
+  "modelRoot": "D:\\Quest3S_Workspace\\Qwen_Simple_Chat\\models",
+  "runtimeVersion": "master-929-3f8527a",
+  "imageModel": "models/qwen-image-2.1-UC-Q4_K_M.gguf",
+  "textEncoder": "models/Qwen3VL-8B-Instruct-Q4_K_M.gguf",
+  "vae": "models/qwen_image_2.1_vae_bf16.safetensors",
+  "imageProfiles": [
+    {
+      "family": "FLUX.1-dev",
+      "name": "FLUX Uncensored merged · Q4_K",
+      "path": "models/flux-uncensored/flux-uncensored-Q4_K.gguf",
+      "clipL": "models/flux-uncensored/text_encoder/model.safetensors",
+      "t5": "models/flux-uncensored/t5xxl-Q4_K.gguf",
+      "vae": "models/flux-uncensored/vae/diffusion_pytorch_model.safetensors",
+      "readyFile": "models/flux-uncensored/ready.json"
+    }
+  ]
+}

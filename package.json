@@ -1,0 +1,12 @@
+{
+  "name": "qwen-image-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local GPU-only sequential Llama prompt writing and Qwen Image 2.1 generation",
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node --test core.test.cjs studio-utils.test.cjs",
+    "verify": "node verify.cjs"
+  },
+  "engines": {"node": ">=22"}
+}
